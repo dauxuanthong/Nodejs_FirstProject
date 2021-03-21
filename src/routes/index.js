@@ -5,7 +5,7 @@ function routes(app) {
     app.use('/news', newsRouter);
 
     //home
-            app.get('/', (req, res) => {
+    app.get('/', (req, res) => {
         res.render('home');
     });
 }
